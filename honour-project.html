@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <title>Mean-Variance Hedging With Neural Networks Using Heston Model</title>
+
+        <style>
+            footer {
+                text-align: left;
+                padding: 1em 0;
+                bottom: 0;
+            }
+        </style>
+
+        <link rel="stylesheet" href="custom-honours-project.css" />
+    </head>
+
+    <body>
+        <h1>Mean-Variance Hedging With Neural Networks Using Heston Model</h1>
+        <h2>Honours Project 2024</h2>
+
+        <hr />
+
+        <h3>Abstract</h3>
+        <p>
+            We investigate the effectiveness of hedging a European basket options using the Heston Model 
+            within a contractual framework involving two parties. The contractual agreement stipulatesthat 
+            at a time <i>T</i>, if the value of the stock owned by party one exceeds that of party two, a trade
+            occurs. We make use of the Heston Model to optimise the hedging strategy, considering factors
+            such as volatility of the respective stocks, co-variation of both stocks with their respective
+            variances and co-variation between the two stocks. 
+            
+            <br /><br />
+
+            Specifically, we explore how covariance between the two underlying stocks, as well as their
+            respective covariances with volatilities influence option pricing and hedging outcomes. To 
+            estimate the parameters of the Heston Model, our first step is to discretise the model utilising
+            Euler’s discretisation method. Thereafter, employ Maximum Likelihood Estimation on the joint
+            multivariate normal distribution of the two stocks to estimate the parameters of the model.
+        </p>
+
+        <hr />
+
+        <a href="Project Proposal - Heston Hedgers.pdf" target="_blank">Project Proposal</a>
+        <!-- <iframe src="Project Proposal - Heston Hedgers.pdf"></iframe> -->
+ 
+        <footer>
+            <p>
+                Authors: Masande Besi and Lwando Mbanguta
+                <br /><br />
+                Supervisor: Yuri Robbertze
+                <br /><br />
+                Co-Supervisor: Jake Stangroom
+            </p>
+        </footer>
+        
+    </body>
+</html>
